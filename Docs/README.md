@@ -1,39 +1,32 @@
 # Project Documentation
 
-This directory contains detailed documentation for the **Email Triage Assistant** project.
+This folder contains detailed documentation for the **Email Triage Assistant** project.
 
-The purpose of this documentation is to explain the system design, features, and methodology used to build an AI-powered email triage system that leverages **ScaleDown compression** to efficiently process long email threads.
-
----
-
-## 📂 Documentation Structure
-
-- **architecture.md**  
-  Describes the overall system architecture, component responsibilities, and data flow of the Email Triage Assistant.
-
-- **features.md**  
-  Provides a detailed explanation of the core features, including email compression, categorization, priority scoring, and reply generation.
-
-- **methodology.md**  
-  Explains the problem statement, design approach, implementation strategy, and the role of ScaleDown in improving efficiency.
+The documentation explains the system design, feature set, and implementation approach used to build an AI-powered email triage system that leverages **ScaleDown compression** to efficiently process long email threads.
 
 ---
 
-## 🎯 Documentation Goals
+## Overview
 
-- Clearly explain how the system works  
+The Email Triage Assistant is designed to reduce email overload by automatically compressing entire email conversations, identifying urgency, categorizing messages, and generating smart reply drafts.  
+This documentation provides a deeper technical explanation beyond the main project README.
+
+---
+
+## Contents
+
+- **Architecture** – System components, data flow, and design decisions  
+- **Features** – Detailed explanation of email compression, categorization, priority scoring, and reply generation  
+- **Methodology** – Problem definition, solution approach, and use of ScaleDown  
+
+---
+
+## Purpose
+
 - Provide technical clarity for reviewers and contributors  
-- Demonstrate effective use of ScaleDown compression  
+- Explain how ScaleDown improves efficiency and scalability  
 - Support evaluation for the ScaleDown Challenge  
 
 ---
 
-## 👥 Intended Audience
-
-- Project reviewers and evaluators  
-- Developers and contributors  
-- Students and learners exploring AI-based productivity tools  
-
----
-
-For a high-level overview of the project, please refer to the main **README.md** in the root directory.
+For a high-level project summary, refer to the main **README.md** in the root directory.
