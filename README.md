@@ -1,31 +1,47 @@
-# Email-TriageAssistant
-AI Email Triage Assistant using ScaleDown for email thread compression
 Email-Triage-Assistant
 
-AI-powered email management system that automatically compresses long email threads, categorizes messages, assigns priority, and generates smart reply drafts. Uses ScaleDown logic to reduce email thread context by 80%, process entire inbox conversations efficiently, and cut email handling time by 60%.
+AI-powered email management system for automatically triaging inbox conversations. Compresses long email threads using ScaleDown logic to reduce context size by 80%, enabling fast categorization, priority detection, and smart reply generation while reducing email handling time by 60%.
 
-🚀 Key Features
+Key Features
 
 .Conversational Email Understanding
-Context-aware analysis of multi-message email threads for accurate intent detection
+Context-aware analysis of multi-message email threads to understand intent and urgency
 
 .ScaleDown Thread Compression
-Compresses long email threads (50+ messages) while preserving critical context
+Compresses long email threads (30–50+ messages) while preserving critical context and meaning
 
 .Automatic Email Categorization
 Classifies emails into Urgent, Work, Personal, and Spam categories
 
 .Priority Scoring Engine
-Assigns High / Medium / Low priority based on urgency, sender, and content
-
-.Smart Reply Generator
-AI-generated response drafts using compressed email summaries
+Assigns High / Medium / Low priority based on deadlines, tone, and content signals
 
 .Thread Summarization
-Generates concise summaries for fast inbox scanning
+Generates concise summaries for quick inbox scanning and decision-making
+
+.Smart Reply Generator
+Creates AI-generated response drafts using compressed email summaries
 
 .Bulk Email Processing
-Handles multiple email threads efficiently with low latency
+Processes multiple email threads efficiently with low latency
 
 .Productivity Optimization
-Reduces email reading and response time by 60%
+Reduces email reading and response time by 60%, improving inbox efficiency
+
+Tech Stack
+
+.FastAPI – Backend API
+.Python – Core processing logic
+.ScaleDown API – Email thread compression
+.HTML / JavaScript – Simple dashboard UI
+
+ScaleDown Impact
+
+.80% reduction in email thread context size
+.Processes entire email threads in a single pass
+.Lower token usage and reduced processing cost
+.Faster email triage and response generation
+
+Project Status
+
+.Work in progress – Built for the ScaleDown Challenge
